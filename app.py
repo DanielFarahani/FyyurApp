@@ -17,6 +17,7 @@ from forms import VenueForm, ArtistForm, ShowForm
 from datetime import datetime
 import sys
 from sqlalchemy import func
+import os
 #----------------------------------------------------------------------------#
 # App Config.
 #----------------------------------------------------------------------------#
@@ -27,7 +28,8 @@ app.config.from_object('config')
 db = SQLAlchemy(app)  # db
 migrate = Migrate(app, db)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = config.SQLALCHEMY_DATABASE_URI
+
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ['DATABASE_URL']
 
 #----------------------------------------------------------------------------#
 # Models.

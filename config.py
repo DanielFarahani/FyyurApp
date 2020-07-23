@@ -8,4 +8,4 @@ SECRET_KEY = os.urandom(32)
 DEBUG = True
 
 # Connect to the database
-SQLALCHEMY_DATABASE_URI = 'postgres://df@localhost:5432/fyyurdb'
+# SQLALCHEMY_DATABASE_URI = 'postgres://df@localhost:5432/fyyurdb'
