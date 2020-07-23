@@ -17,7 +17,7 @@ Using Flask to contruct an MPV model website we can search and add Venues, Arsti
 
 <img src="screenshots/venue.png" height="80%" width="80%"/>
 
-<img src="screenshots/newartist.png" height="25%" width="25%"/>
+<img src="screenshots/newartist.png" height="40%" width="40%"/>
 
 
 
